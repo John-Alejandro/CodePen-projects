@@ -1,0 +1,17 @@
+body {
+    background-image: url("https://modynamics.org/wp-content/uploads/2021/07/working-remotely.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 0;
+
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+}
