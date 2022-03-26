@@ -1,28 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dela+Gothic+One&display=swap');
 
 body {
-    background-image: url("https://modynamics.org/wp-content/uploads/2021/07/working-remotely.jpg");
-    background-repeat: no-repeat;
-    font-family: 'Russo One', sans-serif;
-}
-
-h1 {
-    text-align: center;
-    font-size: 4rem;
-    margin-bottom: 0;
-    color: blue;
+    background: url("https://www.vidyard.com/media/tips-for-working-remotely-1920x1080-1.jpg") no-repeat center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Dela Gothic One', cursive;
 
 }
 
-p {
-    text-align: center;
-    font-size: 2rem;
-    color: blue;
-}
-
-label {
-    display: flex;
-    align-items: center;
-    font-size: 1.125rem;
-    margin-bottom: 0.5rem
+#main-container {
+    background-color: brown;
+    opacity:70%;
+    margin: 50px 1750px 575px 50px;
+    padding: 1rem;
 }
