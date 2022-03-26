@@ -15,7 +15,68 @@
         <div class="form-questions">
             <label id="name-label" for="name">Name</label>
             <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required/>
+        </div>
+        <div class="form-questions">
             <label id="email-label" for="email">Email</label>
             <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required/>
+        </div>
+        <div class="form-questions">
+            <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+            <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age" />
+        </div>
+        <div class="form-questions">
+            <p>What is your current position?</p>
+            <select id="dropdown" name="position" class="form-control" required>
+                <option disabled selected value>Select your position</option>
+                <option value="customer service">Customer Service</option>
+                <option value="technical service">Technical Service</option>
+                <option value="billing service">Billing Service</option>
+                <option value="human resources">Human Resources</option>
+                <option value="investment">Investment</option>
+            </select>
+            <div class="form-questions">
+                <p>Would you recommend working remotely?</p>
+                <label>
+                    <input name="user-recommend" value="yes" type="radio" class="input-radio" checked />Yes</label>
+                <label>
+                    <input name="user-recommend" value="maybe" type="radio" class="input-radio" />Maybe</label>
+                <label>
+                    <input name="user-recommend" value="no" type="radio" class="input-radio" />No</label>
+                <div class="form-questions">
+                    <p>What do you like best about working remotely?<p>
+                    <select id="most-like" name="mostLike" class="form-control" required>
+                        <option disabled selected value>Select an option</option>
+                        <option value="no commute">No Commute</option>
+                        <option value="save on gas">Save on Gas</option>
+                        <option value="more time with family">More time with Fanily</option>
+                        <option value="safe enviroment">Safe Enviroment</option>
+                    </select>
+                </div>
+                <div class="form-questions">
+                    <p>
+                        Recommendations
+                        <span class="clue">(Check all that apply)</span>
+                    </p>
+                    <label><input name="prefer" value="more meetings" type="checkbox" class="input-checkbox" />More Meetings</label>
+                    <label>
+                        <input name="prefer" value="less meetings" type="checkbox" class="input-checkbox" />Less Meetings</label>
+                    <label><input name="prefer" value="better communication" type="checkbox" class="input-checkbox" />Better Communication</label>
+                    <label><input name="prefer" value="incentives" type="checkbox" class="input-checkbox" />Incentives</label>
+                    <label><input name="prefer" value="bonuses" type="checkbox" class="input-checkbox" />Bonuses</label>
+                    <label><input name="prefer" value="accontability" type="checkbox" class="input-checkbox" />Accountability</label>
+                </div>
+                <div class="form-questions">
+                    <p>Any suggestions?</p>
+                    <textarea
+                            id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+                </div>
+
+                <div class="form-questions">
+                    <button type="submit" id="submit" class="submit-button">
+                        Submit
+                    </button>
+                </div>
+    </form>
+</div>
 </body>
 </html>
