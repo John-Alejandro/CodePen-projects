@@ -15,3 +15,9 @@ body {
     margin: 50px 1750px 575px 50px;
     padding: 1rem;
 }
+
+@media  (min-width: 295px) {
+   #main-container {
+       margin: 50px 550px 575px 50px;
+   }
+}
