@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #87ceeb;
+    background-color: #06a7ee;
     font-family: "MuseoModerno", cursive;
 }
 #page-wrapper {
@@ -43,7 +43,7 @@ li {
 header {
     position: fixed;
     top: 0;
-    min-height: 75px;
+    min-height: 25px;
     padding: 0px 20px;
     display: flex;
     justify-content: space-around;
@@ -51,14 +51,14 @@ header {
     background-color: #87ceeb;
 }
 
-@media (maax-width: 600px) {
+@media (max-width: 600px) {
     header {
         flex-wrap: wrap;
     }
 }
 
 .logo {
-    width: 60vw;
+    width: 90vw;
 }
 
 @media (max-width: 650px) {
@@ -98,7 +98,7 @@ nav {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 0 25px;
+        padding: 0 5px;
     }
     nav li {
         padding-bottom: 5px;
@@ -106,7 +106,7 @@ nav {
 }
 
 nav > ul {
-    width: 85vw;
+    width: 95vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -166,10 +166,10 @@ nav > ul {
 #models .descriptions {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 125px;
-    width: 80vw;
-    padding: 5px;
+    justify-content: center;
+    /*height: 125px;*/
+    /*width: 80vw;*/
+    padding: 50px;
 }
 
 @media (max-width: 550px) {
@@ -280,6 +280,11 @@ nav > ul {
         margin: 0 auto;
         margin-bottom: 10px;
     }
+}
+
+ section #concepts {
+     display: flex;
+    justify-content: center;
 }
 
 footer {
