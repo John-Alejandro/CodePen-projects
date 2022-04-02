@@ -1,5 +1,3 @@
-"use strict"
-
 const projectName = "javascript-calculator";
 
 const isOperator = /[x/+-]/,
