@@ -1,4 +1,4 @@
-$button: #4d4d4d;
+$button: black;
 @import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
 @font-face {
     font-family: 'Digital';
@@ -23,7 +23,7 @@ $button: #4d4d4d;
 }
 
 body {
-    background: #c2c2d6;
+    background: grey;
     -webkit-touch-callout: none;
     -moz-user-select: none;
     -ms-user-select: none;
