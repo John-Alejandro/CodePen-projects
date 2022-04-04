@@ -64,6 +64,9 @@ a.nav-link:hover {
     margin-bottom: 110px;
 }
 
+.main-section:hover {
+    background-color: orange;
+}
 section article {
     color: #4d4e53;
     margin: 15px;
