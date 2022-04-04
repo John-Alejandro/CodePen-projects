@@ -23,7 +23,7 @@ header {
     margin: 10px;
     text-align: center;
     font-size: 1.8em;
-    font-weight: thin;
+    font-weight: bold;
 }
 
 #main-doc header {
@@ -54,6 +54,9 @@ header {
     cursor: pointer;
 }
 
+a.nav-link:hover {
+    background-color: yellow;
+}
 #main-doc {
     position: absolute;
     margin-left: 310px;
